@@ -1,97 +1,60 @@
-*{
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
+body{
+  margin:0;
+  background-color:#f4edea;
+  color:#12263a;
+  padding:20px;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  align-items:center;
+  text-align:justify;
 }
-
-.eased{
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
-}
-
 html{
   font-family: 'Gudea', sans-serif;
 }
 
-body{
-  margin:0;
-  font-family: 'Gudea', sans-serif;
-  background-color:#222;
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+.main{
+  max-width:500px;
 }
 
-
-.main{
+.hero{
+  text-align:center;
+  background-color:#06bcc1;
+  color:#12263a;
   display:flex;
   flex-flow:column;
-  color:#2f2f2f;
-  align-items:center;
-  justify-content:center;
-  min-height:100vh;
+  padding:10px;
+  border-radius:3px;
+  box-shadow: 0px 1px 9px 1px #06bcc142;
+
 }
 
-.header{
-  width: 100vw;
-  text-align: center;
+.title{
+  border-bottom: solid 2px #f4d1ae;
+  width:max-content;
 }
 
-.white-card{
-  box-shadow: 0px .5px 15px 0.5px #3f4b58de;
-  color:#2f2f2f;
-  padding:30px;
-  border-radius:5px;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-  overflow:auto;
-  text-align:justify;
-  margin:30px;
+.button{
+  background-color:#f4d1ae;
+  color:#12263a;
+  box-shadow: 0px 1px 9px 1px #f4d1ae66;
+  border-radius:20px; 
+  padding:9px 19px;
+  margin: 10px 10px;
+}
+
+.links{
+  display:flex;
+  flex-flow:row;
+  flex-wrap:wrap;
+  margin:20px 0px;
 }
 
 .card{
-  box-shadow: 0px .5px 15px 0.5px #fb6cd766;
-  background-color:#ccc;
-  color:snow;
-  padding:60px;
-  border-radius:5px;
-  max-width:70vw;
-  max-height:70vh;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  overflow:auto;
-  text-align:justify;
+  background-color:#f9f5f3;
+  box-shadow: 0px 1px 9px 1px #e5c6b95c;
+  padding:20px;
+  margin: 20px 0px;
+  border-radius:3px;
 }
-
-/* Works on Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #197eea70 #333cbf91
-}
-
-/* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-    width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-    background: #333cbf91;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: #197eea70;
-    border-radius: 20px;
-    border: 3px solid #333cbf91;
-}
-
-.summary{
-
-}
-.skills{
-
-}
-.experience{
-
-}
-
-
 
