@@ -34,111 +34,108 @@
                                 in their own path to knlowledge, I'm always up for
                                 new challenges and love contributing in diverse ways
                                 that might not regard to coding at all.")
-                            (h2 [(class "title")] "Skills")
-                            (h3 "Languages")
-                            (div [(class "ico-bg")
-                                  (style "background-color: #3776AB")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/python.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #2C2D72")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/lua.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #F7DF1E;")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/javascript.svg);  filter: none;")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #9F1D20")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/racket.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #5D4F85")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/haskell.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #FCC624")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/linux.svg); filter: none;")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #009639")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/nginx.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #1BB91F")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/tmux.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #1293D8")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/elm.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #1572B6")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/css3.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #E34F26")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/html5.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #336791")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/postgresql.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #61DAFB")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/react.svg); filter: none;")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #003B57")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/sqlite.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #EE1F35")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/delphi.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #F05032")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/git.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #181717")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/github.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #43802A")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/selenium.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #013243")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/numpy.svg)")]))
-                            (div [(class "ico-bg")
-                                  (style "background-color: #150458")]
-                              (div [(class "ico-im")
-                                    (style "background-image: url(/pandas.svg)")]))
-                            (dl
-                               (dd "- Python" )
-                               (dd "- Javascript" )
-                               (dd "- Racket" )
-                               (dd "- Delphi" )
-                               (dd "- Haskell" )
-                               (dd "- Lua" )
-                               (dd "- LISP" )
-                               (dd "- PL/SQL" )
-                               (dd "- CSS" )
-                               (dd "- HTML" ))
-                            (h3 "Techniques and Technologies:")
-                            (dl
-                               (dd "- HTTP protocol" )
-                               (dd "- Web Sockets" )
-                               (dd "- RESTful services" )
-                               (dd "- Parsing" )
-                               (dd "- Web Scrapping" )
-                               (dd "- Desktop Applications" )
-                               (dd "- Web Applications" )
-                               (dd "- NGINX" )
-                               (dd "- Linux" )
-                               (dd "- SQL Databases" ))
+                            (h2 [(class "title")] "Skills and technologies")
+                            (div [(class "tech-container")]
+                              (div [(class "ico-bg")
+                                    (style "background-color: #3776AB")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/python.svg)")])
+                                (p "python"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #2C2D72")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/lua.svg)")])
+                                   (p "lua"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #F7DF1E;")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/javascript.svg);  filter: none;")])
+                                   (p [(style "color:black")] "javascript"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #9F1D20")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/racket.svg)")])
+                                   (p "racket"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #5D4F85")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/haskell.svg)")])
+                                   (p "haskell"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #FCC624")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/linux.svg); filter: none;")])
+                                   (p [(style "color:black")] "linux"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #009639")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/nginx.svg)")])
+                                   (p "nginx"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #1BB91F")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/tmux.svg)")])
+                                   (p "tmux"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #1293D8")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/elm.svg)")])
+                                   (p "elm"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #1572B6")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/css3.svg)")])
+                                   (p "css3"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #E34F26")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/html5.svg)")])
+                                   (p "html5"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #336791")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/postgresql.svg)")])
+                                   (p "postgresql"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #61DAFB")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/react.svg); filter: none;")])
+                                   (p [(style "color:black")] "react"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #003B57")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/sqlite.svg)")])
+                                   (p "sqlite"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #EE1F35")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/delphi.svg)")])
+                                   (p "delphi"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #F05032")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/git.svg)")])
+                                   (p "git"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #181717")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/github.svg)")])
+                                   (p "github"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #43802A")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/selenium.svg)")])
+                                   (p "selenium"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #013243")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/numpy.svg)")])
+                                   (p "numpy"))
+                              (div [(class "ico-bg")
+                                    (style "background-color: #150458")]
+                                (div [(class "ico-im")
+                                      (style "background-image: url(/pandas.svg)")])
+                                   (p "pandas")))
                             (h2 [(class "title")] "Work and Experience")
 
                               (div [(class "card")]
