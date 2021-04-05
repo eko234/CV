@@ -23,7 +23,7 @@
                                  (h1 "LUIS ALFONSO BUELVAS BETANCOURT")
                                  (h3 "Software Developer"))
                             (h2 [(class "title")] "About me")
-                            (p  "I'm a software developer with experiencie working
+                            (p  "I'm a software developer with 3+ years of experiencie working
                                 both in backend and frontend, i've been bringin 
                                 value to my workplace building tools and infrastructure    
                                 to modernize our product which used to be just
@@ -36,12 +36,93 @@
                                 that might not regard to coding at all.")
                             (h2 [(class "title")] "Skills")
                             (h3 "Languages")
+                            (div [(class "ico-bg")
+                                  (style "background-color: #3776AB")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/python.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #2C2D72")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/lua.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #F7DF1E;")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/javascript.svg);  filter: none;")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #9F1D20")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/racket.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #5D4F85")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/haskell.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #FCC624")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/linux.svg); filter: none;")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #009639")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/nginx.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #1BB91F")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/tmux.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #1293D8")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/elm.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #1572B6")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/css3.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #E34F26")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/html5.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #336791")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/postgresql.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #61DAFB")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/react.svg); filter: none;")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #003B57")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/sqlite.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #EE1F35")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/delphi.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #F05032")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/git.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #181717")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/github.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #43802A")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/selenium.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #013243")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/numpy.svg)")]))
+                            (div [(class "ico-bg")
+                                  (style "background-color: #150458")]
+                              (div [(class "ico-im")
+                                    (style "background-image: url(/pandas.svg)")]))
                             (dl
-                               (dd "- Haskell" )
-                               (dd "- Racket" )
                                (dd "- Python" )
                                (dd "- Javascript" )
+                               (dd "- Racket" )
                                (dd "- Delphi" )
+                               (dd "- Haskell" )
+                               (dd "- Lua" )
                                (dd "- LISP" )
                                (dd "- PL/SQL" )
                                (dd "- CSS" )
@@ -102,7 +183,8 @@
                                        to work around some constraints and ended up 
                                        implementing a routing system, and even a json
                                        serializer from scratch using the Delphi runtime type
-                                       information system to develop the API for this service.")
+                                       information system to develop the API for this service. 
+                                       By the way, the frontend is built on React.")
                                    (div [(class "links")]
                                       (a [(href "http://recibos-web.zendevp.com")] (p [(class "button")] "Check it out")) 
                                       (a [(href "http://recibos-web.zendevp.com")] (p [(class "button")] "Repo")))
@@ -112,7 +194,8 @@
                             
                             (div [(class "hero")]
                                  (h1 "Contact me!")
-                                 (p "cel: 3424324")(p "cel: 3424324")(p "cel: 3424324")(p "cel: 3424324")))
+                                 (p "cel: 3424324")
+                                 (p "mail: lu.al.bu@hotmail.com")))
               (script [(type "text/javascript")(src "lmao")]))))))
 
 (define-values (go _)
